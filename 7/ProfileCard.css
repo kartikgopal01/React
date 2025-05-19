@@ -1,0 +1,32 @@
+.profile-card { 
+    width: 300px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  } 
+  .profile-card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+  } 
+  .profile-image { 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+  } 
+.profile-name { 
+    font-size: 1.5rem; 
+    margin: 10px 0 5px; 
+    color: #333; 
+  } 
+.profile-bio { 
+    font-size: 1rem; 
+    color: #666; 
+  } 
+  .app button { 
+    display: block; 
+    margin: 20px auto; 
+    padding: 8px 16px; 
+    font-size: 1rem; } 
